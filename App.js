@@ -16,7 +16,7 @@ export const App = () => (
         <Thumbnail small source={{ uri: logo_url }} />
       </Left>
       <Body>
-        <Title>Rocketseat</Title>
+        <Title>App Dev</Title>
       </Body>
     </Header>
     <View style={styles.container}>

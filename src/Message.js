@@ -29,9 +29,8 @@ export const Messages = ({ Msg }) => (
       <Fab 
         direction="up"
         position="bottomRight"
-        style={{ backgroundColor: "#0000"}}
+        style={{ backgroundColor: "#000001", color: "#000080"}}
       >
-        <Form />
         <Icon type="FontAwesome" name="plus" />
       </Fab>
     </Fragment>
