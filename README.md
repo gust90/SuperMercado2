@@ -1,1 +1,2 @@
-# SuperMercado2
+# supermercado
+app para supermercado
