@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import { Left, Right, Body, Icon, Fab, List, ListItem, Thumbnail, Text} from 'native-base';
-import Form from './page/Form';
 
 
 export const Msg = [

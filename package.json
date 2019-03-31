@@ -14,7 +14,10 @@
     "mysql": "^2.16.0",
     "native-base": "^2.12.1",
     "react": "16.8.3",
-    "react-native": "0.59.2"
+    "react-native": "0.59.2",
+    "react-native-elements": "^1.1.0",
+    "react-native-form-validator": "^0.2.0",
+    "react-native-vector-icons": "^6.4.2"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",

@@ -4,6 +4,7 @@ import { Container, Header, Left,  Body, Title, Icon, View, Thumbnail, Tab, Tabs
 import { StyleSheet } from 'react-native';
 import { Home, BlogList } from './src/Home';
 import { Messages, Msg } from './src/Message';
+import  Form  from "./src/page/Form";
 
 const Notification = () => null;
 
@@ -16,7 +17,7 @@ export const App = () => (
         <Thumbnail small source={{ uri: logo_url }} />
       </Left>
       <Body>
-        <Title>App Dev</Title>
+        <Title>App DEV</Title>
       </Body>
     </Header>
     <View style={styles.container}>
@@ -29,6 +30,9 @@ export const App = () => (
       </Tab>
       <Tab heading={<TabHeading style={styles.tabHeading} ><Icon type="FontAwesome" name="envelope-o" /></TabHeading>}>
         <Messages Msg={Msg}/>
+      </Tab>
+      <Tab heading={<TabHeading style={styles.tabHeading} ><Icon type="FontAwesome" name="envelope-o" /></TabHeading>}>
+        <Form />
       </Tab>
     </Tabs>
     </View>
